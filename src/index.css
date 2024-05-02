@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #ffe796;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    z-index: 3;
+    position: relative;
+}
+
+img{
+    height: 100px;
+    width: 183px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    left: 81px;
+}

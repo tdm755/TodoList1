@@ -1,0 +1,83 @@
+.item{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  align-items: center;
+}
+
+.item li::marker{
+  color: rgb(255, 213, 0);
+  font-size: 24px;
+    
+}
+.item li{
+  list-style-type: square;  
+  outline: none;
+
+
+}
+
+
+
+
+
+
+.TDL{
+  min-width: 350px;
+  min-height: 600px;
+  background-color: #fff;
+  border-radius: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  position: relative;
+ 
+}
+
+.userInput input{
+  width: 200px;
+  height: 35px;
+  border-bottom: 4px dashed rgb(255, 213, 0);
+  border-top: none;
+  background: transparent;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  margin-top: 50px;
+  font-size: larger;
+}
+
+.userInput button{
+  width: 55px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.polka-dot {
+   background-color: #ffffff;
+  background-image: radial-gradient(#cecece 6%, transparent 11%),
+    radial-gradient(#fff 10%, transparent 11%);
+  background-size: 25px 25px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+}
+
+.addedContent{
+  min-height: 100px;
+  min-width: 298px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+
+#del{
+  color: rgb(255, 187, 0);
+  cursor: pointer;
+}
+
+/* .active::marker{
+  color: green;
+} */
